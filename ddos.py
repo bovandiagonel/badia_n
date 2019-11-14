@@ -4,14 +4,14 @@ import random
 import sys
 def usage():
     print "\033
-    print "################################################################################"
+    print "###########################################################################"
     print "#   \033[1;91mCommand: " "python2 ddos.py " "<ip> <port80> <135>                "
     print "#                                                                               "
     print "#\033[1;91mCreator:BovanDiagonel                                                "
     print "#\033[1;91mKeepalAlive  : Badia_N                                               "
     print "#\033[1;91mVersion:2.0                                                          "
     print "#               \033[1;91m<--[Badia_N]-->                                       "
-    print "################################################################################"
+    print "###########################################################################"
     print "                        gunakan sebaik baiknya"
     print "                       jangan menggunakaan untuk"
     print "                  menghancurkan orang yg tidak bersalah"
