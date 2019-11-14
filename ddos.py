@@ -3,7 +3,8 @@ import socket
 import random
 import sys
 def usage():
-    print "################################################################################"     print "#   \033[1;91mCommand: " "python2 ddos.py " "<ip> <port> <packet>               "
+    print "################################################################################"
+    print "#   \033[1;91mCommand: " "python2 ddos.py " "<ip> <port80> <135>                "
     print "#                                                                               "
     print "#\033[1;91mCreator:BovanDiagonel                                                "
     print "#\033[1;91mKeepalAlive  : Badia_N                                               "
