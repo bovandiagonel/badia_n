@@ -14,7 +14,7 @@ echo
 echo $i"["$bi"•"$i"]"$me"───────────────────────────────────────────"$i"["$bi"•"$i"]"
 echo $i" |"$cy"         [DCI] Not_Everything [DCI]"$i"         |"
 echo $i"["$bi"•"$i"]"$me"───────────────────────────────────────────"$i"["$bi"•"$i"]"
-echo
+echo.
 echo [][][][]\\    //[][]\\  [][][][]\\   [][]  //[][]\\	  [][]  [][][][]\\
 echo [][]    [][] /[]//\\[]\ [][]   [][]  [][] /[]//\\[]\	  [][]  [][]   [][]
 echo [][]    [][] [][]  [][] [][]    [][] [][] [][]  [][]	  [][]  [][]    [][]
@@ -23,7 +23,7 @@ echo [][][][][]\  [][][][][] [][]    [][] [][] [][][][][]	  [][]  [][]    [][]
 echo [][]    [][] [][]/\[][] [][]    [][] [][] [][]/\[][]	  [][]  [][]    [][]
 echo [][]    [][] [][]  [][] [][]   [][]  [][] [][]  [][]	  [][]  [][]   [][]
 echo [][][][]//   [][]  [][] [][][][]//   [][] [][]  [][]	  [][]  [][][][]//
-
+echo.
 echo $i"────────────────────────────────    ─────"
 echo $i"|"$me" 1"$i" |"$cy" BRUTEFORCE FB PHP        "$i"|"$i"    |"$cy" B"$i" |"
 echo $i"|"$me" 2"$i" |"$cy" BRUTEFORCE FB Badia_N    "$i"|"$i"    |"$cy" E"$i" |"
@@ -45,7 +45,7 @@ echo $i"────────────────────────
 echo $i"|"$me"18"$i" |"$cy" INSTALL BAHAN DULU COEG  "$i"|"$i"    |"$cy" E"$i" |"
 echo $i"|"$me"19"$i" |"$cy" KELUAR/EXIT PROGRAM      "$i"|"$i"    |"$cy" N"$i" |"
 echo $i"────────────────────────────────    ─────"
-echo
+echo.
 echo $me"┌==="$bi"["$i"©¥$€®"$bi"]"$me"======"$bi"["$i""Pilih Nomornya""$bi"]"
 echo $me"¦"
 read -p"└──# " pil
@@ -227,3 +227,37 @@ fi
 
 if [ $pil = 18 ]
 then
+clear
+apt update && apt upgrade
+apt install python2
+pip2 install urllib3 chardet certifi idna requests
+pkg install git
+pip2 install mechanize
+pkg install curl
+pkg install ruby
+pkg install gem
+gem install lolcat
+pkg install git
+pkg install php
+pkg install ruby cowsay toilet figlet
+pkg install neofetch
+pkg install nano
+figlet -f slant " S U K S E S "|lolcat
+fi
+
+if [ $pil = 19 ]
+then
+clear
+figlet -f slant "E X I T"|lolcat
+sleep 1
+echo $cy"Terima Kasih Sudah Pakai Tools Saya"
+echo ""
+sleep 1
+figlet "Cyser Inc."|lolcat
+
+echo ""
+sleep 2
+echo $pur">> Thanks Yang Sudah menggunakan tools Saya <<"
+echo ""
+exit
+fi
